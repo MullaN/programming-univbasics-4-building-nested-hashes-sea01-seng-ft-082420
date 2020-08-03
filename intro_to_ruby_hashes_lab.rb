@@ -26,7 +26,8 @@ def monopoly_with_third_tier
   }
 
   monopoly[:railroads][:names] = {
-    reading_railroad: {}
+    reading_railroad: {},
+    pennsylvania_railroad: {}
   }
   return monopoly
 end
