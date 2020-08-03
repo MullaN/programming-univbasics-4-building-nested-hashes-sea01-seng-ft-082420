@@ -28,6 +28,7 @@ def monopoly_with_third_tier
   monopoly[:railroads][:names] = {
     reading_railroad: {}
   }
+  return monopoly
 end
 
 def monopoly_with_fourth_tier
